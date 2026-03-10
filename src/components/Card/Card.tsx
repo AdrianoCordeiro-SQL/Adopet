@@ -1,9 +1,9 @@
 import { Link } from "react-router";
 import type { Pet } from "../../types";
 
-const Card = ( { pet }: { pet: Pet } ) => {
+const Card = ({ pet }: { pet: Pet }) => {
   return (
-    <div className="bg-[#F6F6F6] rounded-lg shadow-md p-6 w-full flex flex-col items-center justify-center">
+    <div className="bg-[#f1eaea] rounded-lg shadow-md p-6 w-full flex flex-col items-center justify-center">
       <img
         src={pet.image}
         alt={pet.name}
